@@ -20,8 +20,11 @@ public class GreatestCommonDivisor {
                         }
                     }
                 }
-            }else if(first==second) {
+            }else if(first==second||second==0) {
                 System.out.println(first);
+            }
+            else{
+                System.out.println(second);
             }
     }
 }
