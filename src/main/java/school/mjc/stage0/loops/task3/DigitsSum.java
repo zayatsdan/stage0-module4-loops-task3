@@ -2,6 +2,9 @@ package school.mjc.stage0.loops.task3;
 
 public class DigitsSum {
     public void printDigitsSum(int t){
+        if (number<=0){
+            number=number*(-1);
+        }
         int sum=0;
         String str1 = String.valueOf(t);
         int size1=str1.length();
