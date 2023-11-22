@@ -2,8 +2,8 @@ package school.mjc.stage0.loops.task3;
 
 public class DigitsSum {
     public void printDigitsSum(int t){
-        if (number<=0){
-            number=number*(-1);
+        if (t<=0){
+            t=t*(-1);
         }
         int sum=0;
         String str1 = String.valueOf(t);
